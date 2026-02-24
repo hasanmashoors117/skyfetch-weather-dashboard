@@ -1,0 +1,14 @@
+body {
+  text-align: center;
+  font-family: Arial;
+  background: linear-gradient(to right, purple, blue);
+  color: white;
+  padding: 50px;
+}
+
+#weather-container {
+  background: rgba(255,255,255,0.2);
+  padding: 20px;
+  border-radius: 10px;
+  display: inline-block;
+}

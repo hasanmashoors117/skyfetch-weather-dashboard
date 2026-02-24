@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>SkyFetch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>SkyFetch Weather Dashboard</h1>
+
+  <!-- Search -->
+  <div id="search-section">
+    <input id="cityInput" type="text" placeholder="Enter city name" />
+    <button id="searchBtn">Search</button>
+  </div>
+
+  <!-- Weather -->
+  <div id="weather-container">
+    <h2 id="city"></h2>
+    <p id="temperature"></p>
+    <p id="description"></p>
+    <img id="icon" />
+    <p id="error"></p>
+    <div id="loading"></div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="app.js"></script>
+
+</body>
+</html>
